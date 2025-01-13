@@ -1,0 +1,1 @@
+this repository takes code from https://github.com/bukurt/argocd for the self strapping argocd 

@@ -90,7 +90,7 @@ haproxy:
   ## Service type for HAProxy
   ##
   service:
-    type: ClusterIP
+    type: NodePort
     loadBalancerIP:
     annotations: {}
   serviceAccount:

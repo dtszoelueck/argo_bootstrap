@@ -18,7 +18,7 @@ metadata:
   {{- end }}
 spec:
   publishNotReadyAddresses: true
-  type: ClusterIP
+  type: NodePort
   ports:
   {{- if ne (int $root.Values.redis.port) 0 }}
   - name: tcp-server
